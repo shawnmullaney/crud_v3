@@ -1,0 +1,94 @@
+body {
+	/** background-color: #EDF0EF; **/
+	
+}
+.container-fluid {
+		
+		/** background-color: #465C73    ; **/
+		background-image: url(/images/bluewall.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+		
+		margin-top: 70px;
+		vertical-align: middle;
+		margin-left: auto;
+		margin-right: auto;
+		
+}
+		
+.zoomhash-logo.img-responsive {
+		max-width: 250px;
+		width: 250px;
+		
+		
+}
+
+
+.navbar.navbar-default {
+	background-color: #8A8A8A ;
+	max-width:100%;
+	padding: 10px 10px;
+	/** padding: 3px; **/
+}
+
+.media-left {
+		max-width: 250px;
+}
+.navbar {
+	padding-bottom:0;
+}
+
+nav.navbar-nav.navbar-right li a:hover {
+		color: white;
+}
+	
+ .affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+ /** .affix + .container-fluid {
+      padding-top: 70px;
+  } **/
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 0;
+  border: 1px solid transparent;
+}
+
+.table-responsive {
+	max-width:75%;	
+	margin: 0px auto;
+    float: none;
+	margin-top: 150px;
+}
+
+.navbar-default.navbar-toggle.icon-bar {
+    background-color: white;
+}
+
+.row.active-header {
+		text-align:center;
+		color: white;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+   background:#B8B8B8;
+}
+
+.table tbody tr:hover td, .table tbody tr:hover th {
+    background-color: #9BBAEE  ;
+}
+
+th, td {
+	color: white;
+}
+
+a {
+	color: white;
+}
